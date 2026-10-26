@@ -260,7 +260,7 @@ dependencies {
     androidTestImplementation(libs.androidx.test.espresso.core)
 
     // QR Code generation
-    implementation("com.google.zxing:core:3.5.2")
+    implementation("com.google.zxing:core:3.5.4")
     // QR Code scanning (CameraX + ML Kit)
     implementation("com.google.mlkit:barcode-scanning:17.2.0")
     implementation("androidx.camera:camera-core:1.3.4")
