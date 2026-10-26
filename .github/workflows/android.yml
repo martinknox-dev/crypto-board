@@ -37,7 +37,7 @@ jobs:
           distribution: temurin
 
       - name: Set up CMake and Ninja
-        uses: lukka/get-cmake@v4.0.2
+        uses: lukka/get-cmake@v4.4.4
 
       - name: Cache Gradle packages
         uses: actions/cache@v4
@@ -79,7 +79,7 @@ jobs:
           distribution: temurin
 
       - name: Set up CMake and Ninja
-        uses: lukka/get-cmake@v4.0.2
+        uses: lukka/get-cmake@v4.4.4
 
       - name: Cache Gradle packages
         uses: actions/cache@v4
